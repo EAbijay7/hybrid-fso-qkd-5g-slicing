@@ -70,16 +70,14 @@ hybrid-fso-qkd-5g-slicing/
 │   ├── qos_allocator.m
 │   └── plot_results.m
 ├── results/
-│   └── graphs/
-│       ├── ber_vs_snr.png
-│       ├── qber_vs_snr.png
-│       ├── secret_key_rate_vs_snr.png
-│       ├── conventional_vs_qos_throughput.png
-│       └── qos_slice_allocation.png
+│   └── README.md
 ├── docs/
 │   └── architecture.md
+├── .gitignore
 └── README.md
 ```
+
+Simulation figures produced from the MATLAB run are being maintained alongside the project results and can be added to `results/graphs/` without changing the simulation source.
 
 ## Simulation Scenarios
 
@@ -95,7 +93,7 @@ The SNR sweep covers 0–30 dB. The baseline configuration uses a 2 km FSO link,
 
 ## Results
 
-The included simulation results illustrate the expected system trends:
+The simulation is designed to expose these trends:
 
 1. BER decreases as SNR increases, with stronger turbulence producing worse classical performance.
 2. QBER is higher under stronger turbulence.
