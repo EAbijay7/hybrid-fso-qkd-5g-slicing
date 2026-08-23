@@ -1,0 +1,13 @@
+# MATLAB generated files
+*.asv
+*.autosave
+*.m~
+
+# Simulation output
+*.mat
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
